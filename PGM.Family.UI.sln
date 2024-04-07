@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4542CF2F-328F-4087-ADC9-1F07A535C33C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6759DBF0-45B0-4629-A736-979CDAA690CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGM.Family.UI.Api", "src\UI\PGM.Family.UI.Api\PGM.Family.UI.Api.csproj", "{4E448D17-1EDC-4A70-BF8D-936050FE7402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E448D17-1EDC-4A70-BF8D-936050FE7402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E448D17-1EDC-4A70-BF8D-936050FE7402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E448D17-1EDC-4A70-BF8D-936050FE7402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E448D17-1EDC-4A70-BF8D-936050FE7402}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6759DBF0-45B0-4629-A736-979CDAA690CA} = {4542CF2F-328F-4087-ADC9-1F07A535C33C}
+		{4E448D17-1EDC-4A70-BF8D-936050FE7402} = {6759DBF0-45B0-4629-A736-979CDAA690CA}
+	EndGlobalSection
+EndGlobal
